@@ -1,13 +1,12 @@
-"""
-Pakistan Smart Traffic Congestion Management System
-Modern UI — Light sidebar + card-based layout
-"""
-
 import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext
 import sqlite3, random, time, threading, unittest, heapq
 from datetime import datetime
-
+# if we want to call Test from next file instead
+# suite=unittest.TestLoader().loadTestsFromTestCase(Tests)
+# use this
+# from test_cases import Tests
+# suite = unittest.TestLoader().loadTestsFromTestCase(Tests)
 # ══════════════════════════════════════════════
 #  THEME  — white/slate professional light mode
 # ══════════════════════════════════════════════
